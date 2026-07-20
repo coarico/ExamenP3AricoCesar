@@ -2,9 +2,9 @@ name: CI
 
 on:
   push:
-    branches: [ master, feature/equipment-loan-aricocesar ]
+    branches: [ main, feature/equipment-loan-aricocesar ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   build:
